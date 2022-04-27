@@ -1,0 +1,583 @@
+node1 -- Embedding: 2-2 -- forward_compute_time=55.635, backward_compute_time=0.000, activation_size=409600, parameter_size=321644800
+node2 -- Embedding: 2-3 -- forward_compute_time=43.46, backward_compute_time=0.000, activation_size=409600, parameter_size=6553600
+node3 -- LayerNorm: 4-1 -- forward_compute_time=201.883, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node4 -- Conv1D: 5-1 -- forward_compute_time=754.862, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node5 -- Conv1D: 5-2 -- forward_compute_time=85.599, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node6 -- LayerNorm: 4-3 -- forward_compute_time=208.279, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node7 -- Conv1D: 5-3 -- forward_compute_time=103.553, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node8 -- Conv1D: 5-4 -- forward_compute_time=98.176, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node9 -- LayerNorm: 4-5 -- forward_compute_time=200.426, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node10 -- Conv1D: 5-5 -- forward_compute_time=74.895, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node11 -- Conv1D: 5-6 -- forward_compute_time=84.459, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node12 -- LayerNorm: 4-7 -- forward_compute_time=200.944, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node13 -- Conv1D: 5-7 -- forward_compute_time=105.55, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node14 -- Conv1D: 5-8 -- forward_compute_time=95.257, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node15 -- LayerNorm: 4-9 -- forward_compute_time=198.307, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node16 -- Conv1D: 5-9 -- forward_compute_time=74.124, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node17 -- Conv1D: 5-10 -- forward_compute_time=84.021, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node18 -- LayerNorm: 4-11 -- forward_compute_time=202.874, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node19 -- Conv1D: 5-11 -- forward_compute_time=102.704, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node20 -- Conv1D: 5-12 -- forward_compute_time=95.169, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node21 -- LayerNorm: 4-13 -- forward_compute_time=199.099, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node22 -- Conv1D: 5-13 -- forward_compute_time=74.0, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node23 -- Conv1D: 5-14 -- forward_compute_time=83.024, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node24 -- LayerNorm: 4-15 -- forward_compute_time=196.413, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node25 -- Conv1D: 5-15 -- forward_compute_time=101.729, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node26 -- Conv1D: 5-16 -- forward_compute_time=97.243, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node27 -- LayerNorm: 4-17 -- forward_compute_time=196.153, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node28 -- Conv1D: 5-17 -- forward_compute_time=73.717, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node29 -- Conv1D: 5-18 -- forward_compute_time=85.352, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node30 -- LayerNorm: 4-19 -- forward_compute_time=200.897, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node31 -- Conv1D: 5-19 -- forward_compute_time=110.359, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node32 -- Conv1D: 5-20 -- forward_compute_time=94.667, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node33 -- LayerNorm: 4-21 -- forward_compute_time=196.184, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node34 -- Conv1D: 5-21 -- forward_compute_time=73.881, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node35 -- Conv1D: 5-22 -- forward_compute_time=82.871, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node36 -- LayerNorm: 4-23 -- forward_compute_time=202.095, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node37 -- Conv1D: 5-23 -- forward_compute_time=102.444, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node38 -- Conv1D: 5-24 -- forward_compute_time=94.299, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node39 -- LayerNorm: 4-25 -- forward_compute_time=197.139, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node40 -- Conv1D: 5-25 -- forward_compute_time=74.539, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node41 -- Conv1D: 5-26 -- forward_compute_time=85.943, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node42 -- LayerNorm: 4-27 -- forward_compute_time=200.027, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node43 -- Conv1D: 5-27 -- forward_compute_time=102.404, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node44 -- Conv1D: 5-28 -- forward_compute_time=95.179, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node45 -- LayerNorm: 4-29 -- forward_compute_time=198.657, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node46 -- Conv1D: 5-29 -- forward_compute_time=74.176, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node47 -- Conv1D: 5-30 -- forward_compute_time=83.96, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node48 -- LayerNorm: 4-31 -- forward_compute_time=197.841, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node49 -- Conv1D: 5-31 -- forward_compute_time=102.536, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node50 -- Conv1D: 5-32 -- forward_compute_time=94.797, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node51 -- LayerNorm: 4-33 -- forward_compute_time=200.249, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node52 -- Conv1D: 5-33 -- forward_compute_time=76.692, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node53 -- Conv1D: 5-34 -- forward_compute_time=83.52, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node54 -- LayerNorm: 4-35 -- forward_compute_time=205.164, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node55 -- Conv1D: 5-35 -- forward_compute_time=102.22, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node56 -- Conv1D: 5-36 -- forward_compute_time=94.488, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node57 -- LayerNorm: 4-37 -- forward_compute_time=197.755, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node58 -- Conv1D: 5-37 -- forward_compute_time=74.233, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node59 -- Conv1D: 5-38 -- forward_compute_time=83.551, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node60 -- LayerNorm: 4-39 -- forward_compute_time=209.923, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node61 -- Conv1D: 5-39 -- forward_compute_time=104.985, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node62 -- Conv1D: 5-40 -- forward_compute_time=93.54, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node63 -- LayerNorm: 4-41 -- forward_compute_time=203.297, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node64 -- Conv1D: 5-41 -- forward_compute_time=75.102, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node65 -- Conv1D: 5-42 -- forward_compute_time=87.191, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node66 -- LayerNorm: 4-43 -- forward_compute_time=196.853, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node67 -- Conv1D: 5-43 -- forward_compute_time=109.757, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node68 -- Conv1D: 5-44 -- forward_compute_time=93.268, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node69 -- LayerNorm: 4-45 -- forward_compute_time=197.765, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node70 -- Conv1D: 5-45 -- forward_compute_time=74.441, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node71 -- Conv1D: 5-46 -- forward_compute_time=83.939, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node72 -- LayerNorm: 4-47 -- forward_compute_time=206.916, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node73 -- Conv1D: 5-47 -- forward_compute_time=105.526, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node74 -- Conv1D: 5-48 -- forward_compute_time=93.789, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node75 -- LayerNorm: 4-49 -- forward_compute_time=207.165, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node76 -- Conv1D: 5-49 -- forward_compute_time=79.796, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node77 -- Conv1D: 5-50 -- forward_compute_time=86.28, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node78 -- LayerNorm: 4-51 -- forward_compute_time=200.438, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node79 -- Conv1D: 5-51 -- forward_compute_time=106.486, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node80 -- Conv1D: 5-52 -- forward_compute_time=96.225, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node81 -- LayerNorm: 4-53 -- forward_compute_time=200.101, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node82 -- Conv1D: 5-53 -- forward_compute_time=74.743, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node83 -- Conv1D: 5-54 -- forward_compute_time=83.972, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node84 -- LayerNorm: 4-55 -- forward_compute_time=197.649, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node85 -- Conv1D: 5-55 -- forward_compute_time=102.723, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node86 -- Conv1D: 5-56 -- forward_compute_time=96.465, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node87 -- LayerNorm: 4-57 -- forward_compute_time=199.95, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node88 -- Conv1D: 5-57 -- forward_compute_time=74.235, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node89 -- Conv1D: 5-58 -- forward_compute_time=86.964, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node90 -- LayerNorm: 4-59 -- forward_compute_time=197.451, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node91 -- Conv1D: 5-59 -- forward_compute_time=102.257, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node92 -- Conv1D: 5-60 -- forward_compute_time=94.191, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node93 -- LayerNorm: 4-61 -- forward_compute_time=199.669, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node94 -- Conv1D: 5-61 -- forward_compute_time=76.637, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node95 -- Conv1D: 5-62 -- forward_compute_time=83.7, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node96 -- LayerNorm: 4-63 -- forward_compute_time=200.013, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node97 -- Conv1D: 5-63 -- forward_compute_time=102.563, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node98 -- Conv1D: 5-64 -- forward_compute_time=96.837, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node99 -- LayerNorm: 4-65 -- forward_compute_time=197.679, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node100 -- Conv1D: 5-65 -- forward_compute_time=74.565, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node101 -- Conv1D: 5-66 -- forward_compute_time=83.62, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node102 -- LayerNorm: 4-67 -- forward_compute_time=199.982, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node103 -- Conv1D: 5-67 -- forward_compute_time=102.818, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node104 -- Conv1D: 5-68 -- forward_compute_time=93.535, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node105 -- LayerNorm: 4-69 -- forward_compute_time=199.839, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node106 -- Conv1D: 5-69 -- forward_compute_time=74.352, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node107 -- Conv1D: 5-70 -- forward_compute_time=85.921, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node108 -- LayerNorm: 4-71 -- forward_compute_time=198.459, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node109 -- Conv1D: 5-71 -- forward_compute_time=102.788, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node110 -- Conv1D: 5-72 -- forward_compute_time=93.914, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node111 -- LayerNorm: 4-73 -- forward_compute_time=202.518, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node112 -- Conv1D: 5-73 -- forward_compute_time=73.947, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node113 -- Conv1D: 5-74 -- forward_compute_time=83.67, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node114 -- LayerNorm: 4-75 -- forward_compute_time=197.808, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node115 -- Conv1D: 5-75 -- forward_compute_time=104.869, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node116 -- Conv1D: 5-76 -- forward_compute_time=93.935, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node117 -- LayerNorm: 4-77 -- forward_compute_time=222.415, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node118 -- Conv1D: 5-77 -- forward_compute_time=74.498, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node119 -- Conv1D: 5-78 -- forward_compute_time=86.112, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node120 -- LayerNorm: 4-79 -- forward_compute_time=199.873, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node121 -- Conv1D: 5-79 -- forward_compute_time=108.481, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node122 -- Conv1D: 5-80 -- forward_compute_time=96.814, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node123 -- LayerNorm: 4-81 -- forward_compute_time=198.933, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node124 -- Conv1D: 5-81 -- forward_compute_time=74.326, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node125 -- Conv1D: 5-82 -- forward_compute_time=88.998, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node126 -- LayerNorm: 4-83 -- forward_compute_time=210.016, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node127 -- Conv1D: 5-83 -- forward_compute_time=107.565, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node128 -- Conv1D: 5-84 -- forward_compute_time=94.402, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node129 -- LayerNorm: 4-85 -- forward_compute_time=203.059, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node130 -- Conv1D: 5-85 -- forward_compute_time=76.717, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node131 -- Conv1D: 5-86 -- forward_compute_time=91.486, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node132 -- LayerNorm: 4-87 -- forward_compute_time=197.882, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node133 -- Conv1D: 5-87 -- forward_compute_time=102.596, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node134 -- Conv1D: 5-88 -- forward_compute_time=96.361, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node135 -- LayerNorm: 4-89 -- forward_compute_time=204.207, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node136 -- Conv1D: 5-89 -- forward_compute_time=74.22, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node137 -- Conv1D: 5-90 -- forward_compute_time=85.345, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node138 -- LayerNorm: 4-91 -- forward_compute_time=197.978, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node139 -- Conv1D: 5-91 -- forward_compute_time=104.898, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node140 -- Conv1D: 5-92 -- forward_compute_time=93.965, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node141 -- LayerNorm: 4-93 -- forward_compute_time=199.929, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node142 -- Conv1D: 5-93 -- forward_compute_time=76.98, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node143 -- Conv1D: 5-94 -- forward_compute_time=83.991, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node144 -- LayerNorm: 4-95 -- forward_compute_time=206.567, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node145 -- Conv1D: 5-95 -- forward_compute_time=102.883, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node146 -- Conv1D: 5-96 -- forward_compute_time=93.869, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node147 -- LayerNorm: 4-97 -- forward_compute_time=197.854, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node148 -- Conv1D: 5-97 -- forward_compute_time=74.517, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node149 -- Conv1D: 5-98 -- forward_compute_time=84.516, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node150 -- LayerNorm: 4-99 -- forward_compute_time=197.634, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node151 -- Conv1D: 5-99 -- forward_compute_time=102.076, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node152 -- Conv1D: 5-100 -- forward_compute_time=94.687, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node153 -- LayerNorm: 4-101 -- forward_compute_time=201.274, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node154 -- Conv1D: 5-101 -- forward_compute_time=77.082, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node155 -- Conv1D: 5-102 -- forward_compute_time=82.48, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node156 -- LayerNorm: 4-103 -- forward_compute_time=199.238, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node157 -- Conv1D: 5-103 -- forward_compute_time=106.866, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node158 -- Conv1D: 5-104 -- forward_compute_time=93.367, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node159 -- LayerNorm: 4-105 -- forward_compute_time=199.804, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node160 -- Conv1D: 5-105 -- forward_compute_time=74.174, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node161 -- Conv1D: 5-106 -- forward_compute_time=85.016, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node162 -- LayerNorm: 4-107 -- forward_compute_time=197.484, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node163 -- Conv1D: 5-107 -- forward_compute_time=104.823, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node164 -- Conv1D: 5-108 -- forward_compute_time=93.697, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node165 -- LayerNorm: 4-109 -- forward_compute_time=201.168, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node166 -- Conv1D: 5-109 -- forward_compute_time=80.323, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node167 -- Conv1D: 5-110 -- forward_compute_time=84.761, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node168 -- LayerNorm: 4-111 -- forward_compute_time=199.259, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node169 -- Conv1D: 5-111 -- forward_compute_time=104.186, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node170 -- Conv1D: 5-112 -- forward_compute_time=99.712, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node171 -- LayerNorm: 4-113 -- forward_compute_time=199.587, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node172 -- Conv1D: 5-113 -- forward_compute_time=81.817, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node173 -- Conv1D: 5-114 -- forward_compute_time=83.378, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node174 -- LayerNorm: 4-115 -- forward_compute_time=200.517, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node175 -- Conv1D: 5-115 -- forward_compute_time=101.909, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node176 -- Conv1D: 5-116 -- forward_compute_time=100.961, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node177 -- LayerNorm: 4-117 -- forward_compute_time=196.934, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node178 -- Conv1D: 5-117 -- forward_compute_time=75.895, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node179 -- Conv1D: 5-118 -- forward_compute_time=85.645, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node180 -- LayerNorm: 4-119 -- forward_compute_time=200.275, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node181 -- Conv1D: 5-119 -- forward_compute_time=102.156, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node182 -- Conv1D: 5-120 -- forward_compute_time=93.72, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node183 -- LayerNorm: 4-121 -- forward_compute_time=197.507, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node184 -- Conv1D: 5-121 -- forward_compute_time=75.999, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node185 -- Conv1D: 5-122 -- forward_compute_time=85.325, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node186 -- LayerNorm: 4-123 -- forward_compute_time=197.881, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node187 -- Conv1D: 5-123 -- forward_compute_time=102.284, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node188 -- Conv1D: 5-124 -- forward_compute_time=96.009, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node189 -- LayerNorm: 4-125 -- forward_compute_time=199.593, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node190 -- Conv1D: 5-125 -- forward_compute_time=73.775, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node191 -- Conv1D: 5-126 -- forward_compute_time=83.482, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node192 -- LayerNorm: 4-127 -- forward_compute_time=199.494, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node193 -- Conv1D: 5-127 -- forward_compute_time=102.625, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node194 -- Conv1D: 5-128 -- forward_compute_time=96.237, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node195 -- LayerNorm: 4-129 -- forward_compute_time=198.046, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node196 -- Conv1D: 5-129 -- forward_compute_time=78.484, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node197 -- Conv1D: 5-130 -- forward_compute_time=83.206, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node198 -- LayerNorm: 4-131 -- forward_compute_time=197.57, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node199 -- Conv1D: 5-131 -- forward_compute_time=156.304, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node200 -- Conv1D: 5-132 -- forward_compute_time=96.164, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node201 -- LayerNorm: 4-133 -- forward_compute_time=199.587, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node202 -- Conv1D: 5-133 -- forward_compute_time=73.586, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node203 -- Conv1D: 5-134 -- forward_compute_time=83.103, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node204 -- LayerNorm: 4-135 -- forward_compute_time=209.795, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node205 -- Conv1D: 5-135 -- forward_compute_time=109.145, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node206 -- Conv1D: 5-136 -- forward_compute_time=93.073, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node207 -- LayerNorm: 4-137 -- forward_compute_time=202.194, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node208 -- Conv1D: 5-137 -- forward_compute_time=73.749, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node209 -- Conv1D: 5-138 -- forward_compute_time=83.49, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node210 -- LayerNorm: 4-139 -- forward_compute_time=200.325, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node211 -- Conv1D: 5-139 -- forward_compute_time=105.512, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node212 -- Conv1D: 5-140 -- forward_compute_time=94.466, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node213 -- LayerNorm: 4-141 -- forward_compute_time=200.171, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node214 -- Conv1D: 5-141 -- forward_compute_time=76.191, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node215 -- Conv1D: 5-142 -- forward_compute_time=85.753, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node216 -- LayerNorm: 4-143 -- forward_compute_time=200.457, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node217 -- Conv1D: 5-143 -- forward_compute_time=102.634, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node218 -- Conv1D: 5-144 -- forward_compute_time=94.171, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node219 -- LayerNorm: 4-145 -- forward_compute_time=198.008, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node220 -- Conv1D: 5-145 -- forward_compute_time=74.601, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node221 -- Conv1D: 5-146 -- forward_compute_time=85.833, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node222 -- LayerNorm: 4-147 -- forward_compute_time=201.494, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node223 -- Conv1D: 5-147 -- forward_compute_time=103.154, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node224 -- Conv1D: 5-148 -- forward_compute_time=93.64, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node225 -- LayerNorm: 4-149 -- forward_compute_time=205.627, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node226 -- Conv1D: 5-149 -- forward_compute_time=74.364, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node227 -- Conv1D: 5-150 -- forward_compute_time=85.677, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node228 -- LayerNorm: 4-151 -- forward_compute_time=198.303, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node229 -- Conv1D: 5-151 -- forward_compute_time=102.646, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node230 -- Conv1D: 5-152 -- forward_compute_time=93.955, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node231 -- LayerNorm: 4-153 -- forward_compute_time=200.351, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node232 -- Conv1D: 5-153 -- forward_compute_time=73.741, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node233 -- Conv1D: 5-154 -- forward_compute_time=83.095, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node234 -- LayerNorm: 4-155 -- forward_compute_time=199.787, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node235 -- Conv1D: 5-155 -- forward_compute_time=101.684, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node236 -- Conv1D: 5-156 -- forward_compute_time=93.397, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node237 -- LayerNorm: 4-157 -- forward_compute_time=197.887, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node238 -- Conv1D: 5-157 -- forward_compute_time=74.65, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node239 -- Conv1D: 5-158 -- forward_compute_time=84.048, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node240 -- LayerNorm: 4-159 -- forward_compute_time=204.724, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node241 -- Conv1D: 5-159 -- forward_compute_time=102.248, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node242 -- Conv1D: 5-160 -- forward_compute_time=96.39, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node243 -- LayerNorm: 4-161 -- forward_compute_time=200.394, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node244 -- Conv1D: 5-161 -- forward_compute_time=76.726, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node245 -- Conv1D: 5-162 -- forward_compute_time=83.033, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node246 -- LayerNorm: 4-163 -- forward_compute_time=198.268, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node247 -- Conv1D: 5-163 -- forward_compute_time=105.286, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node248 -- Conv1D: 5-164 -- forward_compute_time=94.087, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node249 -- LayerNorm: 4-165 -- forward_compute_time=198.1, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node250 -- Conv1D: 5-165 -- forward_compute_time=73.945, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node251 -- Conv1D: 5-166 -- forward_compute_time=83.219, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node252 -- LayerNorm: 4-167 -- forward_compute_time=197.851, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node253 -- Conv1D: 5-167 -- forward_compute_time=104.424, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node254 -- Conv1D: 5-168 -- forward_compute_time=93.984, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node255 -- LayerNorm: 4-169 -- forward_compute_time=196.996, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node256 -- Conv1D: 5-169 -- forward_compute_time=74.377, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node257 -- Conv1D: 5-170 -- forward_compute_time=86.237, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node258 -- LayerNorm: 4-171 -- forward_compute_time=200.894, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node259 -- Conv1D: 5-171 -- forward_compute_time=102.88, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node260 -- Conv1D: 5-172 -- forward_compute_time=97.272, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node261 -- LayerNorm: 4-173 -- forward_compute_time=201.626, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node262 -- Conv1D: 5-173 -- forward_compute_time=73.028, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node263 -- Conv1D: 5-174 -- forward_compute_time=87.869, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node264 -- LayerNorm: 4-175 -- forward_compute_time=205.168, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node265 -- Conv1D: 5-175 -- forward_compute_time=104.183, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node266 -- Conv1D: 5-176 -- forward_compute_time=93.347, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node267 -- LayerNorm: 4-177 -- forward_compute_time=199.183, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node268 -- Conv1D: 5-177 -- forward_compute_time=72.87, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node269 -- Conv1D: 5-178 -- forward_compute_time=82.456, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node270 -- LayerNorm: 4-179 -- forward_compute_time=204.994, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node271 -- Conv1D: 5-179 -- forward_compute_time=101.329, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node272 -- Conv1D: 5-180 -- forward_compute_time=92.932, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node273 -- LayerNorm: 4-181 -- forward_compute_time=198.684, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node274 -- Conv1D: 5-181 -- forward_compute_time=73.168, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node275 -- Conv1D: 5-182 -- forward_compute_time=83.322, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node276 -- LayerNorm: 4-183 -- forward_compute_time=202.529, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node277 -- Conv1D: 5-183 -- forward_compute_time=108.822, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node278 -- Conv1D: 5-184 -- forward_compute_time=94.933, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node279 -- LayerNorm: 4-185 -- forward_compute_time=196.691, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node280 -- Conv1D: 5-185 -- forward_compute_time=73.789, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node281 -- Conv1D: 5-186 -- forward_compute_time=82.772, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node282 -- LayerNorm: 4-187 -- forward_compute_time=201.392, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node283 -- Conv1D: 5-187 -- forward_compute_time=107.401, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node284 -- Conv1D: 5-188 -- forward_compute_time=93.522, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node285 -- LayerNorm: 4-189 -- forward_compute_time=202.495, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node286 -- Conv1D: 5-189 -- forward_compute_time=77.494, backward_compute_time=0.000, activation_size=1228800, parameter_size=30739200
+node287 -- Conv1D: 5-190 -- forward_compute_time=83.935, backward_compute_time=0.000, activation_size=409600, parameter_size=10246400
+node288 -- LayerNorm: 4-191 -- forward_compute_time=205.239, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node289 -- Conv1D: 5-191 -- forward_compute_time=102.446, backward_compute_time=0.000, activation_size=1638400, parameter_size=40985600
+node290 -- Conv1D: 5-192 -- forward_compute_time=99.188, backward_compute_time=0.000, activation_size=409600, parameter_size=40966400
+node291 -- LayerNorm: 2-4 -- forward_compute_time=202.926, backward_compute_time=0.000, activation_size=409600, parameter_size=12800
+node292 -- Linear: 2-5 -- forward_compute_time=734.063, backward_compute_time=0.000, activation_size=12865792, parameter_size=321644800
+	node1 -- node2
+	node2 -- node3
+	node3 -- node4
+	node4 -- node5
+	node5 -- node6
+	node6 -- node7
+	node7 -- node8
+	node8 -- node9
+	node9 -- node10
+	node10 -- node11
+	node11 -- node12
+	node12 -- node13
+	node13 -- node14
+	node14 -- node15
+	node15 -- node16
+	node16 -- node17
+	node17 -- node18
+	node18 -- node19
+	node19 -- node20
+	node20 -- node21
+	node21 -- node22
+	node22 -- node23
+	node23 -- node24
+	node24 -- node25
+	node25 -- node26
+	node26 -- node27
+	node27 -- node28
+	node28 -- node29
+	node29 -- node30
+	node30 -- node31
+	node31 -- node32
+	node32 -- node33
+	node33 -- node34
+	node34 -- node35
+	node35 -- node36
+	node36 -- node37
+	node37 -- node38
+	node38 -- node39
+	node39 -- node40
+	node40 -- node41
+	node41 -- node42
+	node42 -- node43
+	node43 -- node44
+	node44 -- node45
+	node45 -- node46
+	node46 -- node47
+	node47 -- node48
+	node48 -- node49
+	node49 -- node50
+	node50 -- node51
+	node51 -- node52
+	node52 -- node53
+	node53 -- node54
+	node54 -- node55
+	node55 -- node56
+	node56 -- node57
+	node57 -- node58
+	node58 -- node59
+	node59 -- node60
+	node60 -- node61
+	node61 -- node62
+	node62 -- node63
+	node63 -- node64
+	node64 -- node65
+	node65 -- node66
+	node66 -- node67
+	node67 -- node68
+	node68 -- node69
+	node69 -- node70
+	node70 -- node71
+	node71 -- node72
+	node72 -- node73
+	node73 -- node74
+	node74 -- node75
+	node75 -- node76
+	node76 -- node77
+	node77 -- node78
+	node78 -- node79
+	node79 -- node80
+	node80 -- node81
+	node81 -- node82
+	node82 -- node83
+	node83 -- node84
+	node84 -- node85
+	node85 -- node86
+	node86 -- node87
+	node87 -- node88
+	node88 -- node89
+	node89 -- node90
+	node90 -- node91
+	node91 -- node92
+	node92 -- node93
+	node93 -- node94
+	node94 -- node95
+	node95 -- node96
+	node96 -- node97
+	node97 -- node98
+	node98 -- node99
+	node99 -- node100
+	node100 -- node101
+	node101 -- node102
+	node102 -- node103
+	node103 -- node104
+	node104 -- node105
+	node105 -- node106
+	node106 -- node107
+	node107 -- node108
+	node108 -- node109
+	node109 -- node110
+	node110 -- node111
+	node111 -- node112
+	node112 -- node113
+	node113 -- node114
+	node114 -- node115
+	node115 -- node116
+	node116 -- node117
+	node117 -- node118
+	node118 -- node119
+	node119 -- node120
+	node120 -- node121
+	node121 -- node122
+	node122 -- node123
+	node123 -- node124
+	node124 -- node125
+	node125 -- node126
+	node126 -- node127
+	node127 -- node128
+	node128 -- node129
+	node129 -- node130
+	node130 -- node131
+	node131 -- node132
+	node132 -- node133
+	node133 -- node134
+	node134 -- node135
+	node135 -- node136
+	node136 -- node137
+	node137 -- node138
+	node138 -- node139
+	node139 -- node140
+	node140 -- node141
+	node141 -- node142
+	node142 -- node143
+	node143 -- node144
+	node144 -- node145
+	node145 -- node146
+	node146 -- node147
+	node147 -- node148
+	node148 -- node149
+	node149 -- node150
+	node150 -- node151
+	node151 -- node152
+	node152 -- node153
+	node153 -- node154
+	node154 -- node155
+	node155 -- node156
+	node156 -- node157
+	node157 -- node158
+	node158 -- node159
+	node159 -- node160
+	node160 -- node161
+	node161 -- node162
+	node162 -- node163
+	node163 -- node164
+	node164 -- node165
+	node165 -- node166
+	node166 -- node167
+	node167 -- node168
+	node168 -- node169
+	node169 -- node170
+	node170 -- node171
+	node171 -- node172
+	node172 -- node173
+	node173 -- node174
+	node174 -- node175
+	node175 -- node176
+	node176 -- node177
+	node177 -- node178
+	node178 -- node179
+	node179 -- node180
+	node180 -- node181
+	node181 -- node182
+	node182 -- node183
+	node183 -- node184
+	node184 -- node185
+	node185 -- node186
+	node186 -- node187
+	node187 -- node188
+	node188 -- node189
+	node189 -- node190
+	node190 -- node191
+	node191 -- node192
+	node192 -- node193
+	node193 -- node194
+	node194 -- node195
+	node195 -- node196
+	node196 -- node197
+	node197 -- node198
+	node198 -- node199
+	node199 -- node200
+	node200 -- node201
+	node201 -- node202
+	node202 -- node203
+	node203 -- node204
+	node204 -- node205
+	node205 -- node206
+	node206 -- node207
+	node207 -- node208
+	node208 -- node209
+	node209 -- node210
+	node210 -- node211
+	node211 -- node212
+	node212 -- node213
+	node213 -- node214
+	node214 -- node215
+	node215 -- node216
+	node216 -- node217
+	node217 -- node218
+	node218 -- node219
+	node219 -- node220
+	node220 -- node221
+	node221 -- node222
+	node222 -- node223
+	node223 -- node224
+	node224 -- node225
+	node225 -- node226
+	node226 -- node227
+	node227 -- node228
+	node228 -- node229
+	node229 -- node230
+	node230 -- node231
+	node231 -- node232
+	node232 -- node233
+	node233 -- node234
+	node234 -- node235
+	node235 -- node236
+	node236 -- node237
+	node237 -- node238
+	node238 -- node239
+	node239 -- node240
+	node240 -- node241
+	node241 -- node242
+	node242 -- node243
+	node243 -- node244
+	node244 -- node245
+	node245 -- node246
+	node246 -- node247
+	node247 -- node248
+	node248 -- node249
+	node249 -- node250
+	node250 -- node251
+	node251 -- node252
+	node252 -- node253
+	node253 -- node254
+	node254 -- node255
+	node255 -- node256
+	node256 -- node257
+	node257 -- node258
+	node258 -- node259
+	node259 -- node260
+	node260 -- node261
+	node261 -- node262
+	node262 -- node263
+	node263 -- node264
+	node264 -- node265
+	node265 -- node266
+	node266 -- node267
+	node267 -- node268
+	node268 -- node269
+	node269 -- node270
+	node270 -- node271
+	node271 -- node272
+	node272 -- node273
+	node273 -- node274
+	node274 -- node275
+	node275 -- node276
+	node276 -- node277
+	node277 -- node278
+	node278 -- node279
+	node279 -- node280
+	node280 -- node281
+	node281 -- node282
+	node282 -- node283
+	node283 -- node284
+	node284 -- node285
+	node285 -- node286
+	node286 -- node287
+	node287 -- node288
+	node288 -- node289
+	node289 -- node290
+	node290 -- node291
+	node291 -- node292
